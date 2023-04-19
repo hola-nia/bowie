@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+/*   box-sizing: border-box !important; */
+  margin:0;
+}
+h1{
+  
+   font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+    /* Abs positioning makes it not take up vert space */
+/*   position: absolute; */
+/*   top: 0;
+  left: 0; */
+  text-align: left;
+  padding-left: 40px;
+padding-top: -5px;
+  padding-bottom: 1px;
+  /* Border is the new background */
+  background: #2F4956;
+  margin: 0 40px;
+  color: #DF9572;
+  /* Rotate from top left corner (not default) */
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+p{
+  margin: 0 50px 0;
+/*   margin-left: 50px; */
+/*   margin-top: 150px; */
+/*   font-family: 'Roboto', sans-serif; */
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+
+}
